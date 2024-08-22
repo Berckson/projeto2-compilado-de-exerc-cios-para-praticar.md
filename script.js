@@ -34,7 +34,7 @@ let dinheiroN = parseInt(prompt("quantas horas você trabalhou esse mês? "))
 alert(" você ganhou esse mês " + (dinheiroH * dinheiroN) + " reais")
 //9Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. C = 5 * ((F-32) / 9).
 let f = parseInt(prompt(" coloque a temperatura em Fahrenheit"))
-let c = parseInt( 5 * ((F-32) / 9))
+let c = parseInt( 5 * ((f-32) / 9))
 alert(c + "°" + " " + " Celsius ")
 //10Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
 let c2 = parseInt(prompt(" coloque a temperatura em graus Celsius"))
