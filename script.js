@@ -14,6 +14,7 @@ let nota2 = parseInt(prompt('Digite a segunda nota: '))
 let nota3 = parseInt(prompt('Digite a terceira nota: '))
 let nota4 = parseInt(prompt('Digite a quarta nota: '))
 let media = (nota1 + nota2 + nota3 + nota4) / 4
+alert(media)
 //5Faça um Programa que converta metros para centímetros.
 let  metros = parseInt(prompt( 'Digite o valor em metros: '))
 let cent = metros * 100
@@ -32,13 +33,13 @@ let dinheiroH =parseInt(prompt("quanto você ganha por hora? "))
 let dinheiroN = parseInt(prompt("quantas horas você trabalhou esse mês? "))
 alert(" você ganhou esse mês " + (dinheiroH * dinheiroN) + " reais")
 //9Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. C = 5 * ((F-32) / 9).
-let F = parseInt(prompt(" coloque a temperatura em Fahrenheit"))
+let f = parseInt(prompt(" coloque a temperatura em Fahrenheit"))
 let c = parseInt( 5 * ((F-32) / 9))
 alert(c + "°" + " " + " Celsius ")
 //10Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
-let C = parseInt(prompt(" coloque a temperatura em graus Celsius"))
-let f = parseInt( 9 * ((C-32) / 5))
-alert(f + "°" + " " + " Fahrenheit ")
+let c2 = parseInt(prompt(" coloque a temperatura em graus Celsius"))
+let f2 = parseInt( 9 * ((c2-32) / 5))
+alert(f2 + "°" + " " + " Fahrenheit ")
 //Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:*/
 //11 Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
 //o produto do dobro do primeiro com metade do segundo .
@@ -63,7 +64,7 @@ alert( `seu peso ideal para homem é ${h} seu peso ideal para mulher é ${m}`)
 //João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso. Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.
 
 let peixe = parseInt(prompt('quantos quilos de peixe você pegou?'))
-let excesso = peixe - 50
+let excesso = 50 - peixe
 let multa = excesso * 4
 alert(`a quantidade de Kg de peixe que passou do limite foi ${excesso}\n  e a multa que você deverá pagar ${multa} R$`) 
 //Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 8% para o INSS e 5% para o sindicato, faça um programa que nos dê:
